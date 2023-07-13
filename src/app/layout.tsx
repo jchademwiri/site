@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     creatorId: '1467726470533754880',
     siteId: '1467726470533754880',
     card: 'summary_large_image',
-    images: ['https://www.playhousemedia.net/twitter-image.png'],
+   
   },
   robots: {
     index: true,
