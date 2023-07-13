@@ -1,6 +1,10 @@
+import GoogleAnalytics from '@/lib/googleAnalytics/GoogleAnalytics';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -54,7 +58,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <GoogleAnalytics GA_MEASUREMENT_ID='G-51M5BSC068' />
+        <Navbar />
+        {children}
+        <Footer />
+        <Analytics />
+        {/* <CookieBanner /> */}
+        </body>
     </html>
   )
 }
