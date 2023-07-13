@@ -21,14 +21,6 @@ export const metadata: Metadata = {
     description:
     "Transform your online presence with Playhouse Media Group. We specialize in creating user-friendly and visually appealing websites that captivate your audience. Boost your brand's visibility and drive organic traffic with our expert web design, development, and SEO services.",
     url: 'https://www.playhousemedia.net',
-    images: [
-      {
-        url: 'https://www.playhousemedia.net/opengraph-image.png',
-        width: 1200,
-        height: 600,
-        alt: 'Jacob Chademwiri Frontend Developer in Centurion, SA',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
